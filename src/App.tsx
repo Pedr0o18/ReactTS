@@ -1,9 +1,12 @@
 import './App.css'
 
+/* Hooks */
+import { useState } from 'react'
+
 /* Componentes */
 import Header from './components/Header'
 import Card from './components/Card'
-import { useState } from 'react'
+import Count from './components/Count'
 
 function App() {
 
@@ -14,6 +17,7 @@ function App() {
       <Header title={"Pedro Antonio"} />
       <p className='m-1' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore nobis? Quas, eaque. Itaque earum dolor vel excepturi possimus numquam eius accusantium! Provident deserunt, fugiat ipsum perferendis cupiditate omnis quisquam.</p>
       <Card title={"Minecraft"} description={"Um jogo daora"} url={url} />
+      <Count />
     </main>
   )
 }

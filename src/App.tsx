@@ -7,6 +7,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Card from './components/Card'
 import Count from './components/Count'
+import InputBox from './components/InputBox'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <p className='m-1' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore nobis? Quas, eaque. Itaque earum dolor vel excepturi possimus numquam eius accusantium! Provident deserunt, fugiat ipsum perferendis cupiditate omnis quisquam.</p>
       <Card title={"Minecraft"} description={"Um jogo daora"} url={url} />
       <Count />
+      <InputBox />
     </main>
   )
 }

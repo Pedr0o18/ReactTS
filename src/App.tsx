@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Card from './components/Card'
 import Count from './components/Count'
 import InputBox from './components/InputBox'
+import Tasks from './components/Tasks'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <div className='text-5xl text-center m-4' >
         {load ? <h3>Carregando...</h3> : <h3>Carregado</h3> }
       </div>
+      <Tasks />
     </main>
   )
 }
